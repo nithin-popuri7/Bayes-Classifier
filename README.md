@@ -22,7 +22,7 @@ Output:
 7. Evaluate the classifier's accuracy using the accuracy_score function from scikit-learn.
 
 ## Program:
-''' 
+```
 Developed By:P.Siva Naga Nithin
 Reg.No:212221240037
 ```
@@ -46,6 +46,7 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 accu = accuracy_score(y_test, y_pred)
 print("Accuracy:",accu*100)
+```
 
 ## Output:
 <img width="228" alt="image" src="https://github.com/nithin-popuri7/Bayes-Classifier/assets/94154780/1a110c33-7917-461b-9054-2c5a59e06b91">
